@@ -6,7 +6,9 @@ Get a Vast instance with the pytorch:latest Docker image. Tested all on python=3
 
 You might also need access to LLaMA 3: request here https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
 
-Run:
+Setup steps:
 - pip install -r requirements.txt
 - conda install -c anaconda ipykernel
 - login with huggingface-cli login
+
+Then, run the cells of llama3.ipynb. If you only want to generate questions/try inference, only run the first cell, then scroll down to the "Sample new questions" cell.
